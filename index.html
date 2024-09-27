@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Yogeshwaree Dafane- Personal Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+    ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  margin-right: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #7a14ff;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #7a14ff;
+}
+.footer-widget ul li {
+  display: inline-block;
+
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #7a14ff;
+    padding: 13px 20px;
+    border: 1px solid #7a14ff;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #7a14ff;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #7a14ff;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+body,.container{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+</style>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Yogeshwaree's Portfolio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#service" class="nav-item nav-link">Project</a>
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">Yogeshwaree's Portfolio</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Certification</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+ 
+    <!-- Header Start  -->
+    <div class="container-fluid bg-light my-0 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Yogeshwaree Dafane</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none"> Web Developer, Front End Developer, Javascript Developer, React Developer, Angular Developer</div>
+                    <div class="d-flex align-items-center pt-6">
+                        <a href="https://drive.google.com/file/d/10V0SUG7O0v76pYMD9PXYWs0_piWWfr09/view?usp=drive_link" class="btn btn-primary py-3 px-4 me-1">Download Resume</a>
+                        <a href="https://github.com/yogeshwareedafane" class="btn btn-primary py-3 px-4 me-5" >
+                           Visit GitHub 
+                        </a>
+                        
+                     </div></div>
+                </div>
+
+                <center>
+                <div class="col-lg-6" >
+                    <img class="img-fluid ml-auto"src="img/yogeshwaree.jpg" alt="">
+                </div>
+            </center>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <div class="container-xxl py-5 m-0 pb-0" id="about">
+        <div class="container ">
+            
+                <div class=" wow fadeInUp" data-wow-delay="0.1s">
+                    
+                     <center >  
+                        <div>
+                            <h1 class=" fw-bold m-0 mb-0">ABOUT</h1>
+                    
+                    </div>
+                    </center> 
+                   
+                      <blockquote class="blockquote text-right">
+                  <p class="mb-0 mt-4  ">
+                 Hello! I'm Yogeshwaree Dafane, a dedicated and innovative Frontend Developer with a strong passion for technology and creating impactful digital experiences. My journey into frontend  web development started with a curiosity about how websites work, and it has grown into a fulfilling career where I get to build complex, user-centric interfaces that solve real-world problems. With a solid foundation in frontend technologies, including HTML, CSS, JavaScript, and Angular.js React.js, I craft user-friendly, visually appealing experiences that captivate and <br>engage users.</p>
+                    <p class="mb-0 mt-4"> Associated libraries, I build high-performance web applications that scale with ease.
+                        My technical expertise includes proficiency in responsive design, CSS preprocessors, JavaScript frameworks, and modern frontend build Framework and tools. I'm well-versed in optimizing website speed, ensuring cross-browser compatibility, and implementing accessibility best practices. Whether it's leading projects from conception to deployment or collaborating with cross-functional teams, I'm committed to delivering technically exceptional solutions."
+                    </p>
+                </blockquote>
+                </div>
+                
+            
+        </div>
+   </div>
+              
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-3">Skills & Experience</h1>
+                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum clita dolor duo clita sit.</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">HTML</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">CSS</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">React JS</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Javascript</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Angular JS</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Bootstrap</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Education</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Internship</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Diploma In Computer Engineering</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1"></p>
+                                    <h6 class="mb-0">Rambhau Lingade Pollytecnique College</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Bachelor Of Engineering In Computer Science</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1"></p>
+                                    <h6 class="mb-0">Anuradha Engineering College</h6>
+                                </div>
+                                </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Web Development</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">NOV 2020 - MAY 2021</p>
+                                    <h6 class="mb-0">Internship Certification Obtained From DparkSolution</h6>
+                                </div>
+                                
+                                
+                               
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+              
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-3 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Project</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="https://www.linkedin.com/in/yogeshwaree-dafane-4337811ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Hire Me</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa-solid fa-mobile-screen fa-2x text-dark"></i>
+                        
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3"> Responsive Animation Fitness Landing Pages Website</h4>
+                            <h6 class="mb-3"><span class="text-primary"></span></h6>
+                            <span>Get fit anywhere, anytime. Our mobile-friendly fitness website delivers a seamless user experience, leveraging HTML5, CSS3, and JavaScript and fully animated to help you reach your wellness goals.</span>
+                        <br>
+                        <br>
+                            <a class="btn btn-primary" href="https://yogeshwareedafane.github.io/Fitness.github.io/">Go on Live</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                        <i class="fa-solid fa-weight-scale fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Angular BMI Caculator</h4>
+                            <h6 class="mb-3"> <span class="text-primary"></span></h6>
+                            <span>Calculate your Body Mass Index (BMI)  quickly and accurately with this Angular-based web app utilizing HTML5, CSS3, and JavaScript. This Web App showing your BMI.This application built with Angular framework that calculates Body Mass Index (BMI) based on user's weight and height.</span>
+                            <br>
+                            <br>
+                                <a class="btn btn-primary" href="https://yogeshwareedafane.github.io/Angular-BMI-Calculator.github.io/">Go on Live</a>
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            
+                            <i class="fas fa-tachometer-alt fa-2x text-dark"></i>
+                          
+                            
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">React Responsive Admin Dashboard</h4>
+                            <h6 class="mb-3"><span class="text-primary"></span></h6>
+                            <span>React Responsive Admin Dashboard A dynamic,mobile-friendly dashboard built with React, HTML5, CSS3, and JavaScript for efficient administration</span>
+                            <br>
+                            <br>
+                                <a class="btn btn-primary" href="https://yogeshwareedafane.github.io/React-Responsive-Admin-Dashboard-github.io/">Go on Live</a>
+                                
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                        <i class="fas fa-briefcase fa-2x text-dark"></i>
+                            
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3"> Responsive Animated Personal Portfolio Website</h4>
+                            <h6 class="mb-3"><span class="text-primary"></span></h6>
+                            <span>Showcasing my creative journey through a responsive, animated portfolio Website built with HTML5, CSS3, and JavaScript and Awesome Web Desgin build in Frontend Framework</span>
+                            <br>
+                            <br>
+                                <a class="btn btn-primary" href="index.html">Go on Live</a>
+                                
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Certification </h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                       
+                        <li class="mx-3 first active"></li>
+                <li class="mx-3 second"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first ">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <center><div class="  mb-1">
+                            <h5 class="border-end pe-1 me-1 mb-0">Web Developer Certification </h5>
+                           
+                          </div>
+                         <center> <h6 class="text-primary ">Obtained From Edureka</h6></center>
+                        <img class="img-fluid" src="img/1.jpg" alt="">
+                        
+                         
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <center><div class="  mb-1">
+                            <h5 class="border-end pe-1 me-1 mb-0">Angular Developer Certification </h5>
+                           
+                          </div>
+                         <center> <h6 class="text-primary ">Obtained From Edureka</h6></center>
+                        <img class="img-fluid" src="img/2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first ">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <center><div class="  mb-1">
+                            <h5 class="border-end pe-1 me-1 mb-0">React Developer Certification </h5>
+                           
+                          </div>
+                         <center> <h6 class="text-primary ">Obtained From Edureka</h6></center>
+                        <img class="img-fluid" src="img/3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first ">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <center><div class="  mb-1">
+                            <h5 class="border-end pe-1 me-1 mb-0">JavaScript Developer Certification </h5>
+                           
+                          </div>
+                         <center> <h6 class="text-primary ">Obtained From Edureka</h6></center>
+                        <img class="img-fluid" src="img/4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/4" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-4 col-md-6 portfolio-item first ">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <center><div class="  mb-1">
+                            <h5 class="border-end pe-1 me-1 mb-0">jQuery UI Developer Certification </h5>
+                           
+                          </div>
+                         <center> <h6 class="text-primary ">Obtained From Edureka</h6></center>
+                        <img class="img-fluid" src="img/5.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/5" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+            </div>
+        </div>
+
+
+
+
+    <!-- Contact Start -->
+     <center>
+     <div class="container-xxl pb-5 align-items-center" id="contact">
+        <div class="container py-5">
+            <div class="mb-5 wow fadeInUp " data-wow-delay="0.1s">
+                <div >
+                    <h1 class="display-5 mb-0">Contact</h1>
+                    <h6 class="text-primary"> Feel Free to reach out to me!</h6>
+                </div>
+                
+            </div>
+            <div >
+                <div class=" wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2"></p>
+                    <h3 class="fw-bold"></h3>
+                    <hr class="w-100">
+                    <i class="fa-solid fa-phone fa-2x text-primary"></i>
+                  
+                    <h3 class="fw-bold">**********</h3>
+                    <hr class="w-100">
+                    <i class="fa-solid fa-envelope fa-2x text-primary"></i>
+                    <h3 class="fw-bold">ydafane@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2 ">Follow me:</p>
+                  <div class="d-flex justify-content-center">
+                    <a class=" btn  btn-square btn-primary me-2" href="https://github.com/yogeshwareedafane"><i class="fa-brands fa-github"></i></a>
+                   <a class="  btn btn-square btn-primary me-2 " href="https://www.linkedin.com/in/yogeshwaree-dafane-4337811ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                 </div>
+                 </div>
+            </center>
+            
+    <!-- Contact End -->
+  
+
+    
+
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>Buldana,Maharashtra</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>**********</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>ydafane@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-content pt-5 pb-5">
+            <div class="d-flex justify-content-center">
+                <div class=" mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <h1 class="text-primary">Yogeshwaree Dafane</h1>
+                        
+                        <div class="footer-text">
+                            <h3 class="text-white">Frontend Developer </h3>
+                            
+                            <h3 class="text-white">portfolio</h3>
+                        </div>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="https://github.com/yogeshwareedafane"><i class="fa-brands fa-github text-white "></i></a>
+                            <a href="https://www.linkedin.com/in/yogeshwaree-dafane-4337811ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in text-primary  "></i></a>
+                            <a href="ydafane@gmail.com"><i class="fab fa-google-plus-g text-danger"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+               
+            </div>
+        
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p> &copy; Yogeshwaree Dafane, All Right Reserved </p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
