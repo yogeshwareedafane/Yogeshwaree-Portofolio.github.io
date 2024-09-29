@@ -1,6 +1,6 @@
 # <p align="center"> 🚀 Responsive Animation Personal Portofolio Website🚀</p>
 
-Welcome to my personal portfolio website! I'm Yogeshwaree Dafane, a Computer Engineer with a passion for Frontend Web Development."
+## Welcome to my personal portfolio website! I'm Yogeshwaree Dafane, a Computer Engineer with a passion for Frontend Web Development."
 
 # Technologies Used💻
 
