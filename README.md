@@ -4,13 +4,7 @@ Welcome to my personal portfolio website! I'm Yogeshwaree Dafane, a Computer Eng
 
 # Technologies Used💻
 
-![Static Badge](https://img.shields.io/badge/HTML5%20-orange?style=for-the-badge&logo=HTML5&labelColor=black) 
-
-![Static Badge](https://img.shields.io/badge/CSS3%20-blue?style=for-the-badge&logo=CSS3&labelColor=black)
-
-![Static Badge](https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=javascript&labelColor=black)
-
- ![Static Badge](https://img.shields.io/badge/bootstrap-rgb(86%2C%2061%2C%20124)?style=for-the-badge&logo=bootstrap&labelColor=black)
+![Static Badge](https://img.shields.io/badge/HTML5%20-orange?style=for-the-badge&logo=HTML5&labelColor=black) ![Static Badge](https://img.shields.io/badge/CSS3%20-blue?style=for-the-badge&logo=CSS3&labelColor=black)![Static Badge](https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=javascript&labelColor=black)![Static Badge](https://img.shields.io/badge/bootstrap-rgb(86%2C%2061%2C%20124)?style=for-the-badge&logo=bootstrap&labelColor=black)
 
 ## 🚀Getting Started
 
@@ -34,7 +28,7 @@ To view my portfolio, simply visit [https://yogeshwareedafane.github.io/Yogeshwa
 
 
 ## Copyright ©
- https://img.shields.io/badge/copyright-red https://img.shields.io/badge/2024-orange https://img.shields.io/badge/Yogeshwaree_Dafane-darkblue
+![Static Badge](https://img.shields.io/badge/copyright-red)![Static Badge](https://img.shields.io/badge/2024-orange)![Static Badge]( https://img.shields.io/badge/Yogeshwaree_Dafane-darkblue)
 
                                               
 
