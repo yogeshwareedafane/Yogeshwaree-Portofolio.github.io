@@ -28,7 +28,7 @@ To view my portfolio, simply visit [https://yogeshwareedafane.github.io/Yogeshwa
 
 
 ## Copyright ©
-![Static Badge](https://img.shields.io/badge/copyright-dark-red)![Static Badge](https://img.shields.io/badge/2024-dark-orange)![Static Badge]( https://img.shields.io/badge/Yogeshwaree_Dafane-darkblue)
+![Static Badge](https://img.shields.io/badge/copyright-darkred)![Static Badge](https://img.shields.io/badge/2024-darkorange)![Static Badge]( https://img.shields.io/badge/Yogeshwaree_Dafane-darkblue)
 
                                               
 
