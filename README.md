@@ -24,7 +24,11 @@ To view my portfolio, simply visit [https://yogeshwareedafane.github.io/Yogeshwa
 - Thanks to Bootstrap for responsive design inspire for new Animated Desgin
 ## Authors🖋️
 
-- [Yogeshwaree Dafane](github.com/yogeshwareedafane)
+![Static Badge]( https://img.shields.io/badge/Yogeshwaree_Dafane-darkblue)
+
+                                              
+
+
 
 
 ## Copyright ©
